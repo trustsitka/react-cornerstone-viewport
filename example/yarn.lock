@@ -2588,23 +2588,24 @@ cornerstone-core@2.2.8:
   resolved "https://registry.yarnpkg.com/cornerstone-core/-/cornerstone-core-2.2.8.tgz#5f10c65c80f8efa7623ee1dd5c9a9d4605f5467c"
   integrity sha512-iJrmfXy1nvM4ZLTJawif2VYBPq8APQ1GYjRbUZAJPNqPYmfYfKWkToVyf9o/i8GMl81op7xLJ4ib3ZMSINKjjQ==
 
+cornerstone-math@0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.7.tgz#7c55536f02e7221b05fc49a4c780bb82c234ce39"
+  integrity sha512-svsDSoqLNFM9niCV2AtV2DNmRkYztT1v80lVdbA5hkgdGdpWg5/h2On794zbqBK+aI3hNOHufERDsI4wdXGknA==
+
 cornerstone-math@0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.8.tgz#68ab1f9e4fdcd7c5cb23a0d2eb4263f9f894f1c5"
   integrity sha512-x7NEQHBtVG7j1yeyj/aRoKTpXv1Vh2/H9zNLMyqYJDtJkNng8C4Q8M3CgZ1qer0Yr7eVq2x+Ynmj6kfOm5jXKw==
 
-cornerstone-math@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.7.tgz#7c55536f02e7221b05fc49a4c780bb82c234ce39"
-  integrity sha512-svsDSoqLNFM9niCV2AtV2DNmRkYztT1v80lVdbA5hkgdGdpWg5/h2On794zbqBK+aI3hNOHufERDsI4wdXGknA==
-
-cornerstone-tools@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/cornerstone-tools/-/cornerstone-tools-3.1.0.tgz#dedecfc038e2f0b984c77bfa74a12810c6fe95f3"
-  integrity sha512-wOolSXgRkG6wgjV4c44zocZhC9FmtWq+X5V1bAsc6VnIi8efSlwdRG3J6uUguQ+G5oYuCT+794Thj4LEPYb3RQ==
+cornerstone-tools@3.16.0:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/cornerstone-tools/-/cornerstone-tools-3.16.0.tgz#03312ac408e7174bda835571b2755691eca57ee1"
+  integrity sha512-2OC3OzuUOZtZEFDXd/ib9lAS6a+giUVIXB3ZZ3H0AQXIUw3GgeBTRjDpFJDkI4XHF3XClmwgJP2UPg8mamfW7Q==
   dependencies:
     "@babel/runtime" "7.1.2"
-    cornerstone-math "^0.1.7"
+    cornerstone-math "0.1.7"
+    debug "4.1.1"
 
 cornerstone-wado-image-loader@2.2.3:
   version "2.2.3"
@@ -2971,6 +2972,13 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
+debug@4.1.1, debug@^4.0.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
+  dependencies:
+    ms "^2.1.1"
+
 debug@=3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
@@ -2982,13 +2990,6 @@ debug@^3.1.0, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
-  dependencies:
-    ms "^2.1.1"
-
-debug@^4.0.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
 
@@ -10208,9 +10209,9 @@ xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
